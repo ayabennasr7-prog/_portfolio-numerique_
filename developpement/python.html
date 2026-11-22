@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python | Mon Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>🐍 Mes projets en Python</h1>
+    <p>Découvrez mes premiers programmes et mes apprentissages.</p>
+</header>
+
+<nav>
+    <a href="../index.html">Accueil</a>
+    <a href="python.html">Python</a>
+    <a href="langage-c.html">Langage C</a>
+    <a href="algorithmique.html">Algorithmique</a>
+</nav>
+
+<main>
+    <section class="about">
+        <h2>💻 Projet 1 : Calculatrice</h2>
+        <p>Un programme qui permet d'effectuer les quatre opérations mathématiques.</p>
+        <pre><code>a = float(input("Premier nombre : "))
+b = float(input("Deuxième nombre : "))
+
+print("Somme :", a + b)
+print("Différence :", a - b)
+print("Produit :", a * b)
+if b != 0:
+    print("Division :", a / b)
+else:
+    print("Division impossible")</code></pre>
+    </section>
+
+    <section class="about">
+        <h2>🔢 Projet 2 : Nombre pair ou impair</h2>
+        <p>Ce programme vérifie si un nombre est pair ou impair.</p>
+        <pre><code>n = int(input("Donner un nombre : "))
+
+if n % 2 == 0:
+    print("Le nombre est pair")
+else:
+    print("Le nombre est impair")</code></pre>
+    </section>
+
+    <section class="about">
+        <h2>🌸 Projet 3 : Table de multiplication</h2>
+        <p>Ce programme affiche la table de multiplication d'un nombre.</p>
+        <pre><code>n = int(input("Donner un nombre : "))
+
+for i in range(1, 11):
+    print(n, "x", i, "=", n * i)</code></pre>
+    </section>
+
+    <section class="about">
+        <h2>📝 Ce que j'ai appris</h2>
+        <p>Grâce à ces projets, j'ai appris à utiliser les variables, les conditions, les boucles et les opérations en Python.</p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 - Mon Portfolio Numérique 🎀</p>
+</footer>
+
+</body>
+</html>
+

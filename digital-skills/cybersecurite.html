@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cybersécurité | Eya</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="../index.html" class="logo">eya.</a>
+      <nav>
+        <a href="../index.html">Accueil</a>
+        <a href="cybersecurite.html">Cybersécurité</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>🔐 La cybersécurité</h1>
+        <p>Protégeons notre monde numérique !</p>
+      </section>
+
+      <section class="about">
+        <h2>✨ Qu'est-ce que la cybersécurité ?</h2>
+        <p>
+          La cybersécurité regroupe les méthodes et les outils utilisés pour
+          protéger les ordinateurs, les réseaux et les données contre les
+          attaques informatiques.
+        </p>
+      </section>
+
+      <section class="about">
+        <h2>🎀 Infographie : protéger sa vie numérique</h2>
+
+        <img
+          src="../medias/cybersecurite.png"
+          alt="Infographie présentant cinq règles pour protéger sa vie numérique"
+          class="infographie"
+        />
+      </section>
+
+      <section class="skills">
+        <h2>⚠️ Les principales menaces</h2>
+
+        <div class="skills-container">
+          <div class="skill-card">
+            <h3>🦠 Les malwares</h3>
+            <p>
+              Des logiciels malveillants conçus pour perturber un appareil ou
+              compromettre ses données.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <h3>🎣 Le phishing</h3>
+            <p>
+              Une technique de fraude qui consiste à se faire passer pour une
+              personne ou une organisation de confiance afin de tromper la
+              victime.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <h3>🔑 Les mots de passe faibles</h3>
+            <p>
+              Des mots de passe faciles à deviner qui peuvent rendre un compte
+              plus vulnérable.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <h2>💡 Les bonnes pratiques</h2>
+        <ul>
+          <li>Utiliser des mots de passe longs et uniques.</li>
+          <li>Activer l'authentification à deux facteurs.</li>
+          <li>Éviter les liens suspects.</li>
+          <li>Mettre à jour régulièrement ses appareils.</li>
+          <li>Ne jamais partager ses informations personnelles.</li>
+        </ul>
+      </section>
+
+      <section class="about">
+        <h2>📚 Sources</h2>
+        <p>
+          Les informations de cette page doivent être vérifiées à partir de
+          sources fiables comme
+          <a
+            href="https://www.cybermalveillance.gouv.fr/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cybermalveillance.gouv.fr </a
+          >.
+        </p>
+      </section>
+
+      <section class="about" id="quiz">
+        <h2>🧠 Teste tes connaissances !</h2>
+        <p>
+          Réponds aux 3 questions pour tester tes connaissances en
+          cybersécurité.
+        </p>
+
+        <div class="quiz-question">
+          <h3>1. Que faire si tu reçois un lien suspect ?</h3>
+          <label
+            ><input type="radio" name="q1" value="0" /> Cliquer dessus</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" value="1" /> Ne pas cliquer et
+            vérifier le message</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" value="0" /> Le partager avec tes
+            amis</label
+          >
+        </div>
+
+        <div class="quiz-question">
+          <h3>2. Pourquoi utiliser un mot de passe solide ?</h3>
+          <label
+            ><input type="radio" name="q2" value="1" /> Pour mieux protéger ses
+            comptes</label
+          ><br />
+          <label
+            ><input type="radio" name="q2" value="0" /> Pour décorer son
+            profil</label
+          ><br />
+          <label
+            ><input type="radio" name="q2" value="0" /> Pour partager son
+            compte</label
+          >
+        </div>
+
+        <div class="quiz-question">
+          <h3>3. Que permet la double authentification ?</h3>
+          <label
+            ><input type="radio" name="q3" value="0" /> De supprimer son
+            compte</label
+          ><br />
+          <label
+            ><input type="radio" name="q3" value="1" /> D'ajouter une protection
+            supplémentaire</label
+          ><br />
+          <label
+            ><input type="radio" name="q3" value="0" /> De désactiver son mot de
+            passe</label
+          >
+        </div>
+
+        <button type="button" onclick="verifierQuiz()">
+          Voir mon résultat ✨
+        </button>
+
+        <p id="resultatQuiz"></p>
+      </section>
+
+      <p><a href="../index.html">← Retour à l'accueil</a></p>
+    </main>
+
+    <footer>
+      <p>Made with ♡ by Eya | Portfolio Numérique 2026</p>
+    </footer>
+  </body>
+</html>

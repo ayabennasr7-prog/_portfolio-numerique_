@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langage C | Mon Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>💻 Mes projets en langage C</h1>
+    <p>Mes premiers programmes en programmation C.</p>
+</header>
+
+<nav>
+    <a href="../index.html">Accueil</a>
+    <a href="python.html">Python</a>
+    <a href="langage-c.html">Langage C</a>
+    <a href="algorithmique.html">Algorithmique</a>
+</nav>
+
+<main>
+    <section class="about">
+        <h2>🌸 Projet 1 : Calcul de la somme</h2>
+        <p>Ce programme calcule la somme de deux nombres.</p>
+        <pre><code>#include &lt;stdio.h&gt;
+
+int main() {
+    int a, b;
+    printf("Donner deux nombres : ");
+    scanf("%d %d", &amp;a, &amp;b);
+
+    printf("La somme est : %d", a + b);
+    return 0;
+}</code></pre>
+    </section>
+
+    <section class="about">
+        <h2>🔢 Projet 2 : Pair ou impair</h2>
+        <p>Ce programme détermine si un nombre est pair ou impair.</p>
+        <pre><code>#include &lt;stdio.h&gt;
+
+int main() {
+    int n;
+    printf("Donner un nombre : ");
+    scanf("%d", &amp;n);
+
+    if (n % 2 == 0)
+        printf("Nombre pair");
+    else
+        printf("Nombre impair");
+
+    return 0;
+}</code></pre>
+    </section>
+
+    <section class="about">
+        <h2>✨ Projet 3 : Factorielle</h2>
+        <p>Ce programme calcule la factorielle d'un entier positif.</p>
+        <pre><code>#include &lt;stdio.h&gt;
+
+int main() {
+    int n, i;
+    long long fact = 1;
+
+    printf("Donner un entier positif : ");
+    scanf("%d", &amp;n);
+
+    if (n &lt; 0) {
+        printf("Nombre invalide");
+    } else {
+        for (i = 1; i &lt;= n; i++) {
+            fact = fact * i;
+        }
+        printf("Factorielle = %lld", fact);
+    }
+
+    return 0;
+}</code></pre>
+    </section>
+
+    <section class="about">
+        <h2>📝 Ce que j'ai appris</h2>
+        <p>J'ai appris à déclarer des variables, utiliser scanf et printf, écrire des conditions et utiliser des boucles en langage C.</p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 - Mon Portfolio Numérique 🎀</p>
+</footer>
+
+</body>
+</html>
